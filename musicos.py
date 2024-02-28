@@ -11,7 +11,7 @@ class Musico:
         self.instrumento = instrumento
 
     def afinar_instrumento(self):
-        self.instrumento.afinar()
+        return self.instrumento.afinar()
 
     def tocar_instrumento(self):
-        self.instrumento.tocar()
+        return self.instrumento.tocar()

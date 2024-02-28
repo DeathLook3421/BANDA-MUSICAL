@@ -34,34 +34,34 @@ class Saxo(Instrumento):
 class Cuatro(Instrumento):
     
     def afinar(self):
-        print("Afinando cuatro")
+        return "Afinando cuatro"
         
     def tocar(self):
-        print("tocando cuatro")
+        return "tocando cuatro"
 
 
 class Flauta(Instrumento):
     
     def afinar(self):
-        print("Afinando flauta")
+        return "Afinando flauta"
         
     def tocar(self):
-        print("tocando flauta")
+        return "tocando flauta"
 
 
 class Triple(Instrumento):
     
     def afinar(self):
-        print("Afinando triple")
+        return "Afinando triple"
         
     def tocar(self):
-        print("tocando triple")
+        return "tocando triple"
 
 
 class Piano(Instrumento):
     
     def afinar(self):
-        print("Afinando Piano")
+        return "Afinando Piano"
         
     def tocar(self):
-        print("tocando Piano")
+        return "tocando Piano"
